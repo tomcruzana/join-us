@@ -9,3 +9,5 @@ Dependencies:
 -ejs
 -bodyParser
 
+P.S Use the users_db in the schema folder to create a db
+
