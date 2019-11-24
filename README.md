@@ -4,8 +4,8 @@
 Sample Subscription page utilizing mySQL, nodeJS, express, Faker API, etc.
 
 Dependencies:
-mySQL
-express
-ejs
-bodyParser
+-mySQL
+-express
+-ejs
+-bodyParser
 
