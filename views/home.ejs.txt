@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Skate Club!</title>
+  <meta name="Skater's club" content="Join our skate club!">
+  <meta name="Thomas Cruzana" content="Skater">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+  <link rel="stylesheet" href="/default.css">
+
+</head>
+
+<body>
+	<div class="flex-container">
+		<div class="container">
+			<h1>JOIN US</h1>
+			<p class="lead">Join <span class="user-count"><strong><%= data %></strong></span> other users and receive our newsletters.</p>
+			
+			<form method="POST" action='/register'>
+				<input type="text" name="email" class="form" placeholder="Enter Your Email">
+				<button>Join Now</button> <!--email is the data that we will be sending-->
+			</form>
+		</div>
+	</div>
+</body>
+</html>
